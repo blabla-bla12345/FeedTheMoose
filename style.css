@@ -1,0 +1,87 @@
+body{ /*zorgt voor de achtergrondkleur en de lettertype*/
+  background-color: lightblue;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+h1{ /*opmaak voor de titel*/
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  border: solid 4px blue;
+}
+h2{ /*opmaak voor de naam van de pagina*/
+  padding: 5px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  border: solid 4px blue;
+}
+#menu{ /*opmaak van het hokje om de knoppen in de menubalk heen*/
+  text-align: center;
+  top: 5px;
+  position: sticky;
+  background-color: blue;
+  
+  height: 34px;
+  padding: 3px;
+  border-radius: 5px;
+  z-index: 10;
+}
+.menubuttons{ /*opmaak voor de knoppen in de menubalk*/
+  display: inline-block;
+  height: 20px;
+  background-color: darkblue;
+  color: white;
+  border: solid 2px lightblue;
+  border-radius: 3px;
+  padding: 5px;  
+  
+}
+.sticky { /*zorgt er voor dat de menubalk bovenin blijft hangen zie javascrtipt*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.pages{ /*zorgt voor de witte text in de menubalk*/
+  text-decoration: none;
+  color: white;
+}
+.text{ /*zorgt voor de opmaak van de text. Ik heb geprobeert de text en fotos naast elkaar te krijgen, maar de ze verschuiven omhoog en omlaag als je het venster breder of dunner maakt.*/
+  padding: 3px;
+  display: inline-block;
+  top: 0px;
+  width: 47%;
+  border: solid 4px blue;
+  border-radius: 5px;
+  background-color: darkblue;
+  color: white;
+}
+.img{ /*zorgt voor de opmaak van de fotos*/
+  padding: 0px;
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  width: 47%;
+  border: solid 4px blue;
+  border-radius: 5px;
+}
+.link{ /*zorgt ervoor dat links niet blauw zijn*/
+  color: white;
+}
+table {
+  /*border-collapse: collapse;*/
+  border: solid;
+  border-radius: 5px;  
+  border-color: blue;
+  
+}
+th {
+  /*width: 30%;*/
+  background-color: white;
+  color: black;
+}
+td {
+  text-align: center;
+  background-color: white;
+  color: black;
+}
